@@ -10,7 +10,7 @@ export const SecretComponent = () => {
     document.addEventListener("keydown", (key)=>{
         keyInput += key.key
         if(myKey === keyInput){
-            alert("Hej Oskar!")
+            alert("Good! You found me!")
         }
         else{
             setTimeout(()=>{
