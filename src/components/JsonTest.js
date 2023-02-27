@@ -9,7 +9,7 @@ export const GetJson = () => {
   const [items, setItems] = useState([])
 
   useEffect(()=>{
-      fetch('http://localhost:3000/react104/data.json')
+      fetch("http://localhost:3001/react104/test.json")
       .then(res => res.json())
       .then(
           (result)=>{

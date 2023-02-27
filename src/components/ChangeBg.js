@@ -1,25 +1,26 @@
-import React from 'react'
+import React, {useState} from 'react'
 
 
-export function ChangeBg () {
+// export function ChangeBg () {
   
-  const[color, setColor] = useState("")
-  const click = color => {
-    setColor(color)
-  }
-  useEffect(()=>{
-    document.body.style.backgroundColor = color
-  }, [color])
+//   const[color, setColor] = useState("")
+//   const click = color => {
+//     setColor(color)
+//   }
+//   useEffect(()=>{
+//     document.body.style.backgroundColor = color
+//   }, [color])
 
-  return (
+//   return (
 
-    <div>
-      <h2>ChangeBg</h2>
-      <button onClick={
-        () => click("yellow")
+//     <div>
+//       <h2>ChangeBg</h2>
+//       <button onClick={
+//         () => click("yellow")
 
-      }>Change color</button>
-      </div>
-  )
-}
+//       }>Change color</button>
+//       </div>
+//   )
+// }
 
+ 

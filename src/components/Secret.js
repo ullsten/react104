@@ -2,7 +2,6 @@ import React, {useState} from "react"
 import { Container, Modal, Button } from "react-bootstrap"
 
 const myKey = "oskar"
-
 export const SecretComponent = () => {
     let keyInput = ""
     
