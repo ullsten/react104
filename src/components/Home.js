@@ -25,7 +25,7 @@ import { useState, useEffect } from "react";
 export const HomeComponent = () => {
   
     return (
-    <h1>Hej home</h1>
+    <h1 className="py-3 mt-5 m-auto w-25 text-center bg-info rounded">I am Home</h1>
       )
       
 }
